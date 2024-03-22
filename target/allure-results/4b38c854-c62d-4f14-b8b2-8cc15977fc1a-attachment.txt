@@ -1,0 +1,1 @@
+{"firstname":"Monte","lastname":"Schamberger","totalprice":1101,"depositpaid":true,"bookingdates":{"checkin":"2024-02-27","checkout":"2024-03-13"},"additionalneeds":"Breakfast"}

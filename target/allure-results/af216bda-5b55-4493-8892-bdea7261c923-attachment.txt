@@ -1,0 +1,1 @@
+{"firstname":"Kirby","lastname":"Jenkins","totalprice":2964,"depositpaid":true,"bookingdates":{"checkin":"2024-03-04","checkout":"2024-03-15"},"additionalneeds":"Breakfast"}

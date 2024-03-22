@@ -1,0 +1,14 @@
+io\github\rsinha\api\manager\BaseTest.class
+io\github\rsinha\api\reqres\CreateToken$CreateTokenBuilder.class
+io\github\rsinha\api\restfulbooker\RestfulBookingOneTest.class
+io\github\rsinha\api\reqres\CreateToken.class
+io\github\rsinha\api\reqres\BookingData$BookingDataBuilder.class
+io\github\rsinha\api\reqres\TokenBuilder.class
+io\github\rsinha\api\reqres\PartialBookingData$PartialBookingDataBuilder.class
+io\github\rsinha\api\manager\RequestManager.class
+io\github\rsinha\api\reqres\PartialBookingData.class
+io\github\rsinha\api\reqres\BookingDates.class
+io\github\rsinha\api\reqres\BookingData.class
+io\github\rsinha\api\reqres\BookingDates$BookingDatesBuilder.class
+io\github\rsinha\api\restfulbooker\RestfulBookingEnd2EndTest.class
+io\github\rsinha\api\reqres\BookingDataBuilder.class

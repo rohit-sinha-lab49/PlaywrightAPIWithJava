@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="34.867" tests="7" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Projects\PlaywrightAPITesting\target\test-classes;C:\Projects\PlaywrightAPITesting\target\classes;C:\Users\rohit.sinha\.m2\repository\com\microsoft\playwright\playwright\1.31.0\playwright-1.31.0.jar;C:\Users\rohit.sinha\.m2\repository\com\google\code\gson\gson\2.8.9\gson-2.8.9.jar;C:\Users\rohit.sinha\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\rohit.sinha\.m2\repository\com\microsoft\playwright\driver\1.31.0\driver-1.31.0.jar;C:\Users\rohit.sinha\.m2\repository\com\microsoft\playwright\driver-bundle\1.31.0\driver-bundle-1.31.0.jar;C:\Users\rohit.sinha\.m2\repository\org\testng\testng\7.5\testng-7.5.jar;C:\Users\rohit.sinha\.m2\repository\com\google\code\findbugs\jsr305\3.0.1\jsr305-3.0.1.jar;C:\Users\rohit.sinha\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\rohit.sinha\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\rohit.sinha\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\rohit.sinha\.m2\repository\org\json\json\20230227\json-20230227.jar;C:\Users\rohit.sinha\.m2\repository\org\projectlombok\lombok\1.18.30\lombok-1.18.30.jar;C:\Users\rohit.sinha\.m2\repository\net\datafaker\datafaker\2.0.2\datafaker-2.0.2.jar;C:\Users\rohit.sinha\.m2\repository\org\yaml\snakeyaml\2.2\snakeyaml-2.2.jar;C:\Users\rohit.sinha\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\rohit.sinha\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\rohit.sinha\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\rohit.sinha\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\rohit.sinha\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\rohit.sinha\.m2\repository\io\qameta\allure\allure-testng\2.24.0\allure-testng-2.24.0.jar;C:\Users\rohit.sinha\.m2\repository\io\qameta\allure\allure-java-commons\2.24.0\allure-java-commons-2.24.0.jar;C:\Users\rohit.sinha\.m2\repository\io\qameta\allure\allure-model\2.24.0\allure-model-2.24.0.jar;C:\Users\rohit.sinha\.m2\repository\io\qameta\allure\allure-test-filter\2.24.0\allure-test-filter-2.24.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.16.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\rohit.sinha\AppData\Local\Temp\surefire16286721618671445799\surefirebooter-20240307171529593_3.jar C:\Users\rohit.sinha\AppData\Local\Temp\surefire16286721618671445799 2024-03-07T17-15-27_841-jvmRun1 surefire-20240307171529593_1tmp surefire_0-20240307171529593_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Projects\PlaywrightAPITesting\target\test-classes;C:\Projects\PlaywrightAPITesting\target\classes;C:\Users\rohit.sinha\.m2\repository\com\microsoft\playwright\playwright\1.31.0\playwright-1.31.0.jar;C:\Users\rohit.sinha\.m2\repository\com\google\code\gson\gson\2.8.9\gson-2.8.9.jar;C:\Users\rohit.sinha\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\rohit.sinha\.m2\repository\com\microsoft\playwright\driver\1.31.0\driver-1.31.0.jar;C:\Users\rohit.sinha\.m2\repository\com\microsoft\playwright\driver-bundle\1.31.0\driver-bundle-1.31.0.jar;C:\Users\rohit.sinha\.m2\repository\org\testng\testng\7.5\testng-7.5.jar;C:\Users\rohit.sinha\.m2\repository\com\google\code\findbugs\jsr305\3.0.1\jsr305-3.0.1.jar;C:\Users\rohit.sinha\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\rohit.sinha\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\rohit.sinha\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\rohit.sinha\.m2\repository\org\json\json\20230227\json-20230227.jar;C:\Users\rohit.sinha\.m2\repository\org\projectlombok\lombok\1.18.30\lombok-1.18.30.jar;C:\Users\rohit.sinha\.m2\repository\net\datafaker\datafaker\2.0.2\datafaker-2.0.2.jar;C:\Users\rohit.sinha\.m2\repository\org\yaml\snakeyaml\2.2\snakeyaml-2.2.jar;C:\Users\rohit.sinha\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\rohit.sinha\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\rohit.sinha\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\rohit.sinha\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\rohit.sinha\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\rohit.sinha\.m2\repository\io\qameta\allure\allure-testng\2.24.0\allure-testng-2.24.0.jar;C:\Users\rohit.sinha\.m2\repository\io\qameta\allure\allure-java-commons\2.24.0\allure-java-commons-2.24.0.jar;C:\Users\rohit.sinha\.m2\repository\io\qameta\allure\allure-model\2.24.0\allure-model-2.24.0.jar;C:\Users\rohit.sinha\.m2\repository\io\qameta\allure\allure-test-filter\2.24.0\allure-test-filter-2.24.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\rohit.sinha"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-08-18"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.16.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Projects\PlaywrightAPITesting"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\rohit.sinha\AppData\Local\Temp\surefire16286721618671445799\surefirebooter-20240307171529593_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.16.1+1-LTS-1"/>
+    <property name="user.name" value="rohit.sinha"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Users\rohit.sinha\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\ROHIT~1.SIN\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.16.1"/>
+    <property name="user.dir" value="C:\Projects\PlaywrightAPITesting"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.16.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;%JAVA_HOME%\bin;C:\Program Files\Maven\apache-maven-3.8.5\bin;C:\Program Files\dotnet\;C:\strawberry\c\bin;C:\strawberry\perl\bin;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\resources\bin;C:\Users\rohit.sinha\scoop\shims;C:\Users\rohit.sinha\AppData\Local\Microsoft\WindowsApps;C:\Users\rohit.sinha\AppData\Local\Programs\Git\cmd;C:\Users\rohit.sinha\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\rohit.sinha\AppData\Roaming\npm;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.16.1+1-LTS-1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="createBookingTest" classname="io.github.rsinha.api.restfulbooker.RestfulBookingEnd2EndTest" time="3.319">
+    <system-out><![CDATA[Current thread id is : 24
+Current thread id is : 24
+{"bookingid":2771,"booking":{"firstname":"Erin","lastname":"Kunze","totalprice":238,"depositpaid":true,"bookingdates":{"checkin":"2024-03-03","checkout":"2024-03-08"},"additionalneeds":"Breakfast"}}
+2771
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Mar 07, 2024 5:15:57 PM io.github.rsinha.api.manager.RequestManager setApiRequestContext
+INFO: Base url : https://restful-booker.herokuapp.com & Headers : {Accept=application/json, content-type=application/json}
+Mar 07, 2024 5:15:58 PM io.github.rsinha.api.manager.BaseTest setUpBase
+INFO: Setup the request where baseURL : https://restful-booker.herokuapp.com
+Mar 07, 2024 5:15:58 PM io.github.rsinha.api.manager.BaseTest setUpBase
+INFO: Headers : {Accept=application/json, content-type=application/json}
+Mar 07, 2024 5:15:58 PM io.github.rsinha.api.manager.BaseTest setUpBase
+INFO: Set Booking data ....
+Mar 07, 2024 5:16:00 PM io.github.rsinha.api.manager.RequestManager postRequest
+INFO: Endpoint for making post request is : /booking
+]]></system-err>
+  </testcase>
+  <testcase name="getBookingTest" classname="io.github.rsinha.api.restfulbooker.RestfulBookingEnd2EndTest" time="0.983">
+    <system-out><![CDATA[Current thread id is : 27
+]]></system-out>
+    <system-err><![CDATA[Mar 07, 2024 5:16:02 PM io.github.rsinha.api.manager.RequestManager getRequest
+INFO: Endpoint for making get request is : /booking/2771
+]]></system-err>
+  </testcase>
+  <testcase name="generateTokenTest" classname="io.github.rsinha.api.restfulbooker.RestfulBookingEnd2EndTest" time="1.089">
+    <system-out><![CDATA[Current thread id is : 27
+]]></system-out>
+    <system-err><![CDATA[Mar 07, 2024 5:16:03 PM io.github.rsinha.api.reqres.TokenBuilder getToken
+INFO: Create token for username : admin & password : password123
+Mar 07, 2024 5:16:03 PM io.github.rsinha.api.manager.RequestManager postRequest
+INFO: Endpoint for making post request is : /auth
+]]></system-err>
+  </testcase>
+  <testcase name="updateBookingTest" classname="io.github.rsinha.api.restfulbooker.RestfulBookingEnd2EndTest" time="1.132">
+    <system-out><![CDATA[Current thread id is : 27
+{"firstname":"Lupe","lastname":"Smitham","totalprice":1235,"depositpaid":true,"bookingdates":{"checkin":"2024-02-18","checkout":"2024-03-08"},"additionalneeds":"Breakfast"}
+]]></system-out>
+    <system-err><![CDATA[Mar 07, 2024 5:16:04 PM io.github.rsinha.api.manager.RequestManager putRequest
+INFO: Endpoint for making put request is : /booking/2771
+]]></system-err>
+  </testcase>
+  <testcase name="patchBookingTest" classname="io.github.rsinha.api.restfulbooker.RestfulBookingEnd2EndTest" time="1.079">
+    <system-out><![CDATA[Current thread id is : 27
+{"firstname":"Elenor","lastname":"Smitham","totalprice":2655,"depositpaid":true,"bookingdates":{"checkin":"2024-02-18","checkout":"2024-03-08"},"additionalneeds":"Breakfast"}
+]]></system-out>
+    <system-err><![CDATA[Mar 07, 2024 5:16:05 PM io.github.rsinha.api.manager.RequestManager patchRequest
+INFO: Endpoint for making patch request is : /booking/2771
+]]></system-err>
+  </testcase>
+  <testcase name="deleteBookingTest" classname="io.github.rsinha.api.restfulbooker.RestfulBookingEnd2EndTest" time="1.077">
+    <system-out><![CDATA[Current thread id is : 24
+Created
+]]></system-out>
+    <system-err><![CDATA[Mar 07, 2024 5:16:06 PM io.github.rsinha.api.manager.RequestManager deleteRequest
+INFO: Endpoint for making delete request is : /booking/2771
+]]></system-err>
+  </testcase>
+  <testcase name="testBookingDeleted" classname="io.github.rsinha.api.restfulbooker.RestfulBookingEnd2EndTest" time="1.05">
+    <system-out><![CDATA[Current thread id is : 24
+Booking is already deleted
+]]></system-out>
+    <system-err><![CDATA[Mar 07, 2024 5:16:08 PM io.github.rsinha.api.manager.RequestManager getRequest
+INFO: Endpoint for making get request is : /booking/2771
+]]></system-err>
+  </testcase>
+</testsuite>
