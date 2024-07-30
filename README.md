@@ -91,21 +91,21 @@ PlaywrightAPIWithJava/
 
 
 src/test/java: Contains all the test-related code.
-manager: Contains classes for managing tests.
-BaseTest.java: Base class for all tests.
-RequestManager.java: Class for managing API requests.
-reqres: Contains classes related to the ReqRes API.
-BookingData.java: Data model for booking.
-BookingDataBuilder.java: Builder for BookingData.
-BookingDates.java: Data model for booking dates.
-CreateToken.java: Class for creating tokens.
-PartialBookingData.java: Data model for partial booking.
-TokenBuilder.java: Builder for tokens.
+   manager: Contains classes for managing tests.
+      BaseTest.java: Base class for all tests.
+      RequestManager.java: Class for managing API requests.
+   reqres: Contains classes related to the ReqRes API.
+      BookingData.java: Data model for booking.
+      BookingDataBuilder.java: Builder for BookingData.
+      BookingDates.java: Data model for booking dates.
+      CreateToken.java: Class for creating tokens.
+      PartialBookingData.java: Data model for partial booking.
+      TokenBuilder.java: Builder for tokens.
 restfulbooker: Contains test classes for the Restful Booker API.
-RestfulBookingEnd2EndTest.java: End-to-end test class for Restful Booker.
-RestfulBookingOneTest.java: Single test class for Restful Booker.
+      RestfulBookingEnd2EndTest.java: End-to-end test class for Restful Booker.
+      RestfulBookingOneTest.java: Single test class for Restful Booker.
 test-suite: Contains the TestNG suite file.
-testng.xml: Configuration file for running the TestNG tests.
+      testng.xml: Configuration file for running the TestNG tests.
 
 Dependencies
 Playwright Java: For API testing.
@@ -117,10 +117,10 @@ Contributing
 Contributions are welcome! Please follow these steps:
 
 Fork the repository.
-Create a new branch (git checkout -b feature/your-feature).
-Commit your changes (git commit -m 'Add some feature').
-Push to the branch (git push origin feature/your-feature).
-Open a pull request.
+1.Create a new branch (git checkout -b feature/your-feature).
+2.Commit your changes (git commit -m 'Add some feature').
+3.Push to the branch (git push origin feature/your-feature).
+4.Open a pull request.
 
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
