@@ -122,9 +122,9 @@ test-suite: Contains the TestNG suite file.
 
       testng.xml: Configuration file for running the TestNG tests.
 
-Dependencies
+# Dependencies
 
-Playwright Java: For API testing.
+**Playwright Java: For API testing.
 
 TestNG: For test execution.
 
@@ -132,13 +132,13 @@ Lombok: For reducing boilerplate code.
 
 DataFaker: For generating random test data.
 
-Allure: For test reporting.
+Allure: For test reporting.**
 
-Contributing
+# Contributing
 
 Contributions are welcome! Please follow these steps:
 
-Fork the repository.
+# Fork the repository.
 
 1.Create a new branch (git checkout -b feature/your-feature).
 
@@ -147,6 +147,7 @@ Fork the repository.
 3.Push to the branch (git push origin feature/your-feature).
 
 4.Open a pull request.
+
 
 License
 
