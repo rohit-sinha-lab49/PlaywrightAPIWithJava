@@ -63,9 +63,7 @@ The command will start a local server and open the Allure report in your default
 Project Structure
 The project is organized as follows:
 
-PlaywrightAPIWithJava
-
-PlaywrightAPIWithJava/
+**PlaywrightAPIWithJava/
 ├── src/
 │   └── test/
 │       └── java/
@@ -87,7 +85,7 @@ PlaywrightAPIWithJava/
 ├── test-suite/
 │   └── testng.xml
 ├── pom.xml
-└── README.md
+└── README.md**
 
 
 src/test/java: Contains all the test-related code.
@@ -124,7 +122,7 @@ test-suite: Contains the TestNG suite file.
 
 # Dependencies
 
-**Playwright Java: For API testing.
+Playwright Java: For API testing.
 
 TestNG: For test execution.
 
@@ -132,7 +130,7 @@ Lombok: For reducing boilerplate code.
 
 DataFaker: For generating random test data.
 
-Allure: For test reporting.**
+Allure: For test reporting.
 
 # Contributing
 
@@ -149,6 +147,6 @@ Contributions are welcome! Please follow these steps:
 4.Open a pull request.
 
 
-License
+# License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
